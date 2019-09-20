@@ -1,0 +1,42 @@
+{
+  "meeting": [
+    {
+      "id": 1,
+      "date": "17/09/2019",
+      "subject": "Company vision drive"
+    }
+  ],
+  "employeeList": [
+    {
+      "id": 1,
+      "select": "<input type='checkbox' name='record'>",
+      "name": "John Doe",
+      "gender": "Male",
+      "email": "johndoe@email.com",
+      "phoneNumber": "08012345678"
+    },
+    {
+      "select": "<input type='checkbox' name='record'>",
+      "name": "lamba",
+      "gender": "Male",
+      "email": "lam@gand.com",
+      "phoneNumber": "23456789",
+      "id": 2
+    }
+  ],
+  "employeeAttendance": [
+    {
+      "id": 1,
+      "meeting": "company drive",
+      "employee": "Emmanuel Jones",
+      "attendanceStatus": "Absent"
+    },
+    {
+      "meeting": "Company vision drive",
+      "employee": "John Doe",
+      "attendanceStatus": "Absent",
+      "id": 2
+    }
+  ]
+
+}

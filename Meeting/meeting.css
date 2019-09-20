@@ -1,0 +1,210 @@
+body {
+    background-color: cornflowerblue no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-image: url(../images/conference.jpg)
+}
+
+.modal-header-warning {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: rgb(168, 144, 233);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+  
+.form-row input[type='text'] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+  
+.form-row label {
+    margin-bottom: 15px;
+}
+
+.form-row input[type='text']:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none; 
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #5995DA;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+  
+.form-row button:hover {
+    background-color: #76AEED;
+}
+  
+.form-row button:active {
+    background-color: #407FC7;
+}
+
+.employee-form {
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+
+.gender-form-row {
+    border: none;
+    margin-bottom: 40px;
+}
+  
+.gender-form-row legend {
+    margin-bottom: 15px;
+}
+  
+.gender-form-row .radio-label {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px 0 10px;
+}
+  
+.gender-form-row input[type='radio'] {
+    margin-top: 2px;
+}
+    
+.gender-form-row .radio-label,
+.gender-form-row input[type='radio'] {
+    float: left;
+}
+
+.content-container{
+    background-color: #F6F7F8;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.btn-danger, .btn-primary {
+    margin-bottom: 10px
+}
+
+body {
+    background: url('../images/business-meeting-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.card { 
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) 
+}  
+
+.card-header h3 {
+    color: white;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: rgb(206, 202, 190);
+    color: black;
+    border:0 ;
+}
+    
+input:focus {
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: rgb(206, 202, 190);
+    width: 100px;
+    }
+    
+.login_btn:hover {
+color: black;
+background-color: white;
+} 
+
+@media only screen and (min-width: 700px) {
+    .form-row {
+        flex-direction: row;
+        align-items: flex-start; 
+        margin-bottom: 20px;
+    }
+    .form-row input[type='text'] ,
+    .form-row select {
+        width: 80%;
+        height: initial;
+        
+    }
+    .form-row label {
+        text-align: left;
+        width: 150px;
+        margin-top: 7px;
+        padding-right: 20px;
+    }
+
+    .employee-form {
+        width: 600px;
+    }
+
+    .gender-form-row {
+        margin-bottom: 10px;
+    }
+    
+    .gender-form-row legend {
+        width: 150px;
+        text-align: left;
+        padding-right: 20px;
+    }
+    
+    .gender-form-row legend {
+        float: left;
+    }
+    
+    .form-row button {
+        margin-left: 150px;
+    }
+}
